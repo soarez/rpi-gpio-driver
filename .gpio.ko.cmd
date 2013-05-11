@@ -1,0 +1,1 @@
+cmd_/home/igor/src/soarez/gpio-driver/gpio.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-40-generic/scripts/module-common.lds --build-id  -o /home/igor/src/soarez/gpio-driver/gpio.ko /home/igor/src/soarez/gpio-driver/gpio.o /home/igor/src/soarez/gpio-driver/gpio.mod.o
